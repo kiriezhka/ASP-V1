@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W3LIHN5qOSOFFywKyAI+5RmQEj2XqvwCQo9UFRnBExO9uI2oV5fluqcT5jSDGXQnwRnk//nI9FYdDEFUe0i/aQ==",
+  "dgSpecHash": "HS6CwPv8lnRqe5taKmODgcqRwQyoB73Fo/U3RFidMXMrON6eOl5IzBNeGIS4W46A8eyK18JlB5CwoFC3FWivfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bogdan\\source\\repos\\routing\\routing\\routing.csproj",
+  "projectFilePath": "C:\\Users\\Bogdan\\Documents\\GitHub\\ASP-V2\\routing\\routing\\routing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.1\\microsoft.aspnetcore.authentication.abstractions.2.1.1.nupkg.sha512",

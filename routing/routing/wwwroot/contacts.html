@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE =edge">
+    <meta name="viewport" content="width =device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384- BVYiiSIFeKidGmJRAkycuHAHRg320mUcww7on3RYdg4Va+PmSTsz /K68vbdEjh4u" cross origin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap- theme.min.css" integrity="sha384-rHyoN1iRsVXV4nDeJutinGasLCJu7uwjduw9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">            
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQ1b027qvyjSMfHjMaLkfuWVXZxUPCJA712mCWNIG9mGCDBWGNICPD7Txa" crossorigin="anonymous"></script>
+    <style>
+         body {
+             padding: 0;
+             margin: 0;
+             position: sticky;
+             background-color: aqua;
+            
+        }
+
+         header {
+             width: 100%;
+             background-color: lightblue;
+             position: fixed;
+             
+        }
+        
+         .nav-itm {
+             display: inline-block;
+             margin: 10px;
+             font-size: 20px;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             transition-duration:0.5s;
+             position: sticky;
+              
+        }
+
+         .header {
+            z-index: 500;
+        }
+
+         .nav-itm:hover {
+             transform: scale(1.1);
+            
+        }
+
+         header a {
+             text-decoration: none;
+             color: black;
+             font-weight: bold;
+            
+        }
+
+          .header-wrap {
+              width: 80%;
+             margin: 0 auto;
+             display: flex;
+             justify-content: center;
+            
+        }
+
+         main {
+             background-color: cadetblue;
+              
+        }
+
+         .container {
+             display: inline-grid;
+             grid-template-columns: 300px 300px 300px;
+             margin-top: 100px;
+              
+        }
+
+          .center {
+             text-align: center;
+            
+        }
+
+         img {
+             width: 300px;
+             height: auto;
+            
+        }
+
+         p {
+             width: 100vw;
+             font-size: 18px;
+             text-align: center;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-weight: bold;
+            
+        }
+
+         .solid {
+             padding-left: 10px;
+             font-size: 18px;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+
+         #up {
+            z-index: 1000;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header id="up">        
+        <div class="header-wrap">          
+        <nav>            
+            <ul class="main-nav">              
+                  <li class="nav-itm"><a href="/pages/home">Home</a></li>
+                  <li class="nav-itm"><a href="/pages/gallery">Gallery</a></li>
+                  <li class="nav-itm"><a href="/pages/about_us">About us</a></li>
+                  <li class="nav-itm"><a href="/pages/useful_info">Useful Info</a></li>
+                  <li class="nav-itm"><a href="/pages/contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+     </header>
+    <main id="down">
+    <div class="container-fluid" id="pictures">
+        <div class="row">
+        <div class="col-md-12"><p><img src="https://i.ibb.co/c1YXPDv/photo-2022-12-01-11-55-28.jpgs"></p></div>
+            </div>
+        </div> 
+    </main>                  
+</body>
+</html>
